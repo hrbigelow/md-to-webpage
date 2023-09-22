@@ -1,0 +1,21 @@
+{
+  "name": "transformer-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild app.jsx --bundle --outfile=out.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.19.3",
+    "esbuild-plugin-markdown": "file:esbuild-plugin-markdown",
+    "katex": "^0.16.8"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

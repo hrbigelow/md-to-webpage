@@ -17,10 +17,11 @@
   }
 }
 
-code {
+pre code {
   font-size: 80%;
   line-height: 1.5; 
 }
+
 
 article {
   display: grid;

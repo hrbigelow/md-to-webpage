@@ -1,5 +1,5 @@
 {
-  "name": "transformer-from-scratch",
+  "name": "md-to-webpage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,7 @@
   "devDependencies": {
     "esbuild": "0.19.3",
     "esbuild-plugin-markdown": "file:esbuild-plugin-markdown",
+    "highlight": "^0.2.4",
     "katex": "^0.16.8"
   },
   "dependencies": {

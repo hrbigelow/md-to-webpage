@@ -1,6 +1,7 @@
 import * as esbuild from 'esbuild';
 import plugin from 'esbuild-plugin-markdown';
 import markedMathExt from './marked_math_ext.mjs';
+import renderer from './marked_renderer.mjs';
 
 const markdownPlugin = plugin.markdownPlugin
 let marked_extensions = (new markedMathExt()).getExtensions()
@@ -16,6 +17,7 @@ var options = {
   smartLists: true,
   smartypants: false,
   xhtml: false,
+  renderer: renderer,
   extensions: marked_extensions
 }
 

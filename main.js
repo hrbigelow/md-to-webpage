@@ -7,9 +7,9 @@ import bash from 'highlight.js/lib/languages/bash';
 hljs.registerLanguage('python', python);
 hljs.registerLanguage('bash', bash);
 
-let elem = document.getElementById('article')
+let article = document.getElementById('article')
 // console.log(`Got element ${elem}`)
-elem.innerHTML = content.html;
+article.innerHTML = content.html;
 
 hljs.highlightAll();
 

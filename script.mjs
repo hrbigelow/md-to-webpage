@@ -7,7 +7,7 @@ const markdownPlugin = plugin.markdownPlugin
 let marked_extensions = (new markedMathExt()).getExtensions()
 
 var options = {
-  breaks: true,
+  breaks: false, // do not add line breaks as <br>
   pedantic: false,
   gfm: true,
   tables: true,

@@ -10,15 +10,6 @@ const renderer = {
                 ${text}
               </a>
             </h${level}>`;
-
-    return `
-            <a name="${escapedText}" class="anchor" href="#${escapedText}">
-              <h${level}>
-                ${text}
-              </h${level}>
-            </a>
-            `;
-
   }
 }
 

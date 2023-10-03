@@ -8,7 +8,6 @@ hljs.registerLanguage('python', python);
 hljs.registerLanguage('bash', bash);
 
 let article = document.getElementById('article')
-// console.log(`Got element ${elem}`)
 article.innerHTML = content.html;
 
 hljs.highlightAll();

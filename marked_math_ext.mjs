@@ -118,5 +118,3 @@ class markedMathExt {
 
 export default markedMathExt;
 
-// module.exports = markedMathExt
-

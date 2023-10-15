@@ -10,7 +10,10 @@ webpage.
 
 ```bash
 git clone https://github.com/hrbigelow/md-to-webpage
+cd md-to-webpage/esbuild-plugin-markdown
+node build.js
 cd md-to-webpage
+npm install -D ./esbuild-plugin-markdown
 npm install
 jupyter nbconvert --to markdown path/to/notebook.ipynb --output content.md
 

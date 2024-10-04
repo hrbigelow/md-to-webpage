@@ -22,7 +22,7 @@ class markedMathExt {
           displayMode: is_block 
         });
       } catch (err) {
-        error_msg = `Got ${err} processing:\n\n${token.text}`
+        var error_msg = `Got ${err} processing:\n\n${token.text}`
         console.error(error_msg);
         throw new Error(error_msg);
       }
